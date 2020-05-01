@@ -57,7 +57,8 @@
     "which": "^2.0.1",
     "write-file-atomic": "^3.0.0",
     "yaml": "^1.6.0",
-    "yapool": "^1.0.0"
+    "yapool": "^1.0.0",
+    "snyk": "^1.316.1"
   },
   "keywords": [
     "assert",
@@ -80,7 +81,9 @@
     "www:build": "cd docs; npm ci; npm run build",
     "www:develop": "cd docs; npm run develop",
     "start": "npm run www:develop",
-    "www:serve": "cd docs; npm run serve"
+    "www:serve": "cd docs; npm run serve",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "tap": {
     "esm": false,
@@ -100,5 +103,6 @@
     "bin/jsx.js",
     "bin/jack.js",
     "lib/*.js"
-  ]
+  ],
+  "snyk": true
 }
