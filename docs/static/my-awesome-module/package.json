@@ -8,7 +8,7 @@
     "test": "tap"
   },
   "dependencies": {
-    "tap-yaml": "^1.0.0",
-    "yaml": "^1.5.0"
+    "tap-yaml": "^1.0.1",
+    "yaml": "^1.10.0"
   }
 }
