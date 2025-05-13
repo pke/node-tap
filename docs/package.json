@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.1",
-    "gatsby": "^2.8.2",
+    "gatsby": "^5.14.0",
     "gatsby-plugin-catch-links": "^2.0.15",
     "gatsby-plugin-manifest": "^2.2.0",
     "gatsby-plugin-meta-redirect": "^1.1.1",
@@ -31,7 +31,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
-    "rebass": "^3.1.1",
+    "rebass": "^3.2.0",
     "styled-components": "^4.3.1"
   },
   "devDependencies": {
